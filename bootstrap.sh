@@ -15,7 +15,7 @@ cp zsh/.zshrc ~
 cp zsh/davidthingsaker.zsh ~/.oh-my-zsh/custom
 cp zsh/davidthingsaker.zsh-theme ~/.oh-my-zsh/custom/themes
 
-# Install Homebrew, Cask and all the packages
+# Install Homebrew, Cask and all the packages using Thoughtbots script
 sh mac 2>&1 | tee ~/laptop.log
 
 # Install Homestead for all the Laravel apps
