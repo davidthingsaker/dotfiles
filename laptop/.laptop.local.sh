@@ -15,7 +15,7 @@ brew cask install sublime-text
 brew cask install evernote
 brew cask install vyprvpn
 # brew cask install 1password # license required MAS App
-# brew cask install bartender # license required MAX App
+# brew cask install bartender # license required MAS App
 brew cask install chrome-remote-desktop-host
 brew cask install vlc
 brew cask install virtualbox

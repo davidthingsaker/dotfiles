@@ -183,7 +183,7 @@ if ! command -v rcup >/dev/null; then
   brew_install_or_upgrade 'rcm'
 fi
 
-if [ -f "$HOME/Sites/laptop/.laptop.local.sh" ]; then
+if [ -f "$HOME/Sites/mac/laptop/.laptop.local.sh" ]; then
   fancy_echo "Installing custom stuff"
-  . "$HOME/Sites/laptop/.laptop.local.sh"
+  . "$HOME/Sites/mac/laptop/.laptop.local.sh"
 fi

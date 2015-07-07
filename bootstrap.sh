@@ -40,6 +40,7 @@ Move my customisations into place
 rm ~/.zshrc
 cp zsh/.zshrc ~
 cp zsh/davidthingsaker.zsh ~/.oh-my-zsh/custom
+mkdir ~/.oh-my-zsh/custom/themes
 cp zsh/davidthingsaker.zsh-theme ~/.oh-my-zsh/custom/themes
 
 echo "Running the Thoughtbot script and .laptop.local"
@@ -62,7 +63,6 @@ fi
 
 if type composer > /dev/null; then
     echo 'Looks like you already have composer installed'
-    sudo /usr/bin/composer self-update
 else
     echo "Installing Composer"
     Install Composer and add to path
