@@ -210,8 +210,8 @@ ln -s /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app /Appli
 ###############################################################################
 
 # Set default Window to theme I like
-defaults write com.apple.Terminal "Default Window Settings" -string "Silver Aerogel"
-defaults write com.apple.Terminal "Startup Window Settings" -string "Silver Aerogel"
+defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
+defaults write com.apple.Terminal "Startup Window Settings" -string "Pro"
 
 ###############################################################################
 # Safari                                                                      #

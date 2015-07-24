@@ -36,7 +36,7 @@ else
 fi
 
 echo "Moving ZSH customisations into place"
-Move my customisations into place
+#Move my customisations into place
 rm ~/.zshrc
 cp zsh/.zshrc ~
 cp zsh/davidthingsaker.zsh ~/.oh-my-zsh/custom
@@ -65,11 +65,11 @@ if type composer > /dev/null; then
     echo 'Looks like you already have composer installed'
 else
     echo "Installing Composer"
-    Install Composer and add to path
+    #Install Composer and add to path
     curl -sS https://getcomposer.org/installer | php
 
     echo "Adding composer to PATH"
-    According to composers notes, Yosemite does not have /usr/local/bin by default. Check and create it if not.
+    #According to composers notes, Yosemite does not have /usr/local/bin by default. Check and create it if not.
     if [ ! -d /usr/local/bin ]; then
       mkdir /usr/local/bin
     fi

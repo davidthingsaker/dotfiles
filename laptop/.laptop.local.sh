@@ -25,13 +25,13 @@ brew cask install skype
 brew cask install keka
 brew cask install sequel-pro
 
-brew cask install sonarr
-brew cask install sabnzbd
-brew cask install couchpotatoserver
+#brew cask install sonarr
+#brew cask install sabnzbd
+#brew cask install couchpotatoserver
 brew cask install torbrowser
 brew cask install transmission
-brew cask install plex-media-server
-brew cask install plex-home-theater
+#brew cask install plex-media-server
+#brew cask install plex-home-theater
 
 
 brew_install_or_upgrade 'tree'

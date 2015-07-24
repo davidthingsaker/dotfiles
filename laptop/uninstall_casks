@@ -1,0 +1,32 @@
+#!/bin/sh
+
+brew cask zap dropbox
+brew cask zap google-chrome
+brew cask zap firefox
+# brew cask zap transmit # license required MAS App
+brew cask zap smcfancontrol
+# brew cask zap divvy # license required MAS App
+brew cask zap tower # license required
+brew cask zap phpstorm # license required
+brew cask zap sublime-text
+brew cask zap evernote
+brew cask zap vyprvpn
+# brew cask zap 1password # license required MAS App
+# brew cask zap bartender # license required MAS App
+brew cask zap chrome-remote-desktop-host
+brew cask zap vlc
+brew cask zap virtualbox
+brew cask zap vagrant
+brew cask zap skype
+# brew cask zap daisydisk # license required MAS App
+brew cask zap keka
+brew cask zap sequel-pro
+
+#brew cask zap sonarr
+#brew cask zap sabnzbd
+#brew cask zap couchpotatoserver
+brew cask zap torbrowser
+brew cask zap transmission
+#brew cask zap plex-media-server
+#brew cask zap plex-home-theater
+
